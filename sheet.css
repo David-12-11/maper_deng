@@ -1,0 +1,278 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.main-div {
+    width: 100%;
+    height: 50px;
+}
+
+nav {
+    background-color: #000;
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+    position: fixed;
+}
+
+nav a {
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.div-1 {
+    background-color: black;
+    border: none;
+    width: 110px;
+    height: 140px;
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+.div-1 img {
+    width: 110px;
+    height: 140px;
+}
+
+.div-img {
+    float: left;
+    background-color: blue;
+    width: 120px;
+    height: 70px;
+}
+
+.div-img img {
+    float: left;
+    width: 120px;
+    height: 70px;
+}
+
+.div-2 {
+    width: 600px;
+    height: 70px;
+    background-color: #000;
+    margin: 0 auto; 
+}
+
+.div-2 a {
+    text-align: center;
+    line-height: 40px;
+}
+
+.div-3 {
+    float: right;
+    width: 200px;
+    height: 70px;
+    background-color: #000;
+    margin-right: 40px;
+}
+
+.div-3 a {
+    text-align: center;
+    line-height: 40px;
+}
+
+.first {
+    padding: 150px 0px 20px 0px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-family: "Lucida Handwriting";
+    color: darkblue;
+}
+
+div {
+    max-width: 100%;
+    background-color: #D2E0FB;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+div h1 {
+    text-align: center;
+}
+
+span {
+    text-decoration: red dotted underline;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 300%;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+.link:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: red ultra-expanded;
+}
+
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+    text-align: left;
+}
+
+ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+    text-align: left;
+}
+
+.cup-1 {
+    margin-top: 40px;
+}
+
+.cup-1 h3 {
+    text-align: left;
+}
+
+.cup-2 h3 {
+    text-align: left;
+}
+
+h1 {
+    font-family: "Lucida Handwriting";
+    text-align: left;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-2 {
+    border: none;
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.table-2 th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+.table-2 tr:nth-child(even) {
+    background-color: blue;
+    color: white;
+}
+
+.table-2 h1 {
+    text-align: left;
+}
+
+.table-3 {
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-3 th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid gray;
+}
+
+.table-3 th {
+    background-color: green;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    nav a {
+        float: none; 
+        display: block;
+        text-align: left;
+    }
+    
+    .div-2 {
+        width: 90%; 
+        left: 5%; 
+    }
+    
+    .div-3 {
+        width: 100%; 
+        float: none; 
+        margin: 20px 0; 
+    }
+    
+    .first {
+        padding: 80px 0; 
+    }
+    
+    img {
+        width: 100%; 
+        height: auto; 
+    }
+    
+    .div-1, .div-img {
+        width: 100%; 
+        height: auto; 
+        margin: 0 auto; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+    
+    nav a {
+        padding: 10px; 
+        font-size: 15px; 
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 20px;
+			  overflow-x: hidden;
+        }
+		
+        ul li {
+            list-style: none;
+        }
+		
+        ul li a {
+            display: block;
+            margin: 20px 0;
+            padding: 10px;
+            color: white;
+            background-color: #FF6500;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-align: center;
+        }
+		
+        ul li a:hover {
+            background-color: #005bb5;
+            color: #fff;
+        }
+		
+        a {
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+		
+        a:hover {
+            background-color: #FF6500;
+            color: #000;
+        }
+
+       
+        a:link {
+            color: #000;
+        }
+		
+        a:visited {
+            color: #800080;
+        }
+		
+        a:hover {
+            color: #fff;
+        }
+		
+        a:active {
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seven Links</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+        <li><a href="https://www.igihe.com" target="_blank">Igihe</a></li>
+        <li><a href="https://www.irembo.gov.rw" target="_blank">Irembo</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+    </ul>
+    <a href="page2.html" target="_blank">Next</a>
+</body>
+</html>
